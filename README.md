@@ -1,2 +1,15 @@
-# gitlab-update-cd-repo
-A tekton task for gitlab-update-cd-repo
+# Stakater Cluster Task for Build Image Flag
+
+## Local Development
+
+### Install
+
+```
+tilt up
+```
+
+### Teardown
+
+```
+tilt down
+```
