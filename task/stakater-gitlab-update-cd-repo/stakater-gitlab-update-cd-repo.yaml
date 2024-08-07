@@ -5,7 +5,7 @@ kind: Task
 metadata:
   name: stakater-gitlab-update-cd-repo
   labels:
-    app.kubernetes.io/version: "0.0.8"
+    app.kubernetes.io/version: "0.0.9"
 spec:
   workspaces:
   - name: source
@@ -48,7 +48,7 @@ spec:
     default: "gitlab-pat"
   steps:
   - name: update-cd-repo
-    image: ghcr.io/stakater/pipeline-toolbox:v0.0.37
+    image: ghcr.io/stakater/pipeline-toolbox:v0.0.40
     command: ["/bin/bash"]
     workingDir: $(workspaces.source.path)
     env:
