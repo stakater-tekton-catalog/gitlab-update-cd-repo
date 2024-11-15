@@ -5,7 +5,7 @@ kind: Task
 metadata:
   name: stakater-gitlab-update-cd-repo
   labels:
-    app.kubernetes.io/version: "0.0.9"
+    app.kubernetes.io/version: "0.0.10"
 spec:
   workspaces:
   - name: source
